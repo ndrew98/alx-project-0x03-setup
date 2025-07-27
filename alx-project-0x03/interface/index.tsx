@@ -1,17 +1,17 @@
 // Interface for Button props
 export interface ButtonProps {
-  buttonLabel: string
-  buttonSize?: string
-  buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
-  action?: () => void
+  buttonLabel: string;
+  buttonSize?: string;
+  buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
+  action?: () => void;
 }
 
 // Interface for Layout props
 export interface LayoutProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 // Interface for Page routing (used in index.tsx)
 export interface PageRouteProps {
-  pageRoute: string
+  pageRoute: string;
 }

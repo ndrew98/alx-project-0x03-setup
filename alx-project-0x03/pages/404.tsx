@@ -13,7 +13,7 @@ const Custom404 = () => {
       {/* Funny Message */}
       <p className="text-lg mb-8 text-center max-w-md">
         Maybe it was abducted by aliens 👽, or it just took a wrong turn into
-        the Internet wilderness! Either way, it's not here.
+        the Internet wilderness! Either way, it&#39;s not here.
       </p>
 
       {/* Button to navigate back */}
